@@ -1,0 +1,57 @@
+ h1{
+      color : red;
+   }
+ 
+.header{
+    background-color: aqua;
+    display: flex ;
+    justify-content: space-between;
+
+}
+.header *{
+   
+    border: solid;
+    padding:20px;
+}
+.menu{
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: #aaaaaa
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:black;
+}
+.item{
+    position: relative;
+
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.3;
+}
